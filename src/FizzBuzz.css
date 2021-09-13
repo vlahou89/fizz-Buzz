@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 5vw;
+  background-image: url("./back.jpg");
+}
+
+#root {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  width: 100px;
+  background: none;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.display {
+  flex: 1;
+  text-align: center;
+}
